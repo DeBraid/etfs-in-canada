@@ -1,19 +1,3 @@
-Meteor.call("getTime", function(error, result) {
-  if (error)
-      console.log(error)
-  var time = "The current time is " + result;
-  
-  Session.set("currentTime", time);
-});
-
-Meteor.call("perfData", function(error, result) {
-  if (error)
-      console.log(error)
-  console.log(result); 
-  
-  // Session.set("currentTime", time);
-});
-
 Meteor.call("etfList", function(error, result) {
   if (error)
       console.log(error)

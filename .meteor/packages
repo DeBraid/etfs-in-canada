@@ -6,8 +6,8 @@
 meteor-platform
 autopublish
 insecure
-npm
 http
 bootstrap
 underscore
+npm
 

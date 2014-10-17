@@ -1,24 +1,21 @@
 <head>
-  <title>Basic Web Scraper</title>
+  <title>ETFs in Canada</title>
 </head>
 
 <body>
-  <h1>Mini Example for Meteor Scraping</h1>
-  {{> whatTime }}
-  {{> etfs }}
+  <div class="container">
+    <div class="row">
+      <h2>ETF's on TSX</h2>
+    </div>
+    <div class="row">
+      {{> etfs }}
+    </div>
+  </div>
 </body>
-
-<template name="whatTime">
-  {{#if currTime }}
-  <h3>{{ currTime }}</h3>
-  {{/if }}
-</template>
 
 <template name="etfs">
   
     <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
       <div class="row">
       {{#each tickers }}
         <div class="col-md-4 text-center chart">
@@ -27,9 +24,7 @@
           <p>{{ titles }}</p>
         </div>
       {{/each }}
-
-      </div><!-- /.row -->
-
+      </div>
     </div>  
   
 </template>
