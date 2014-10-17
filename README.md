@@ -1,5 +1,9 @@
-## Very Basic Web Scraper
+## ETF's in Canada with Stock Charts
 
-Using Meteor packages: http, npm to bring in cheerio.
+Meteor JS app with ETF's listed in Canada. 
 
-Scraper the time for a web page using Meteor.call() and Session variables.
+Built by Derek Braid 
+
+@Royal_Arse
+
+cacheflow.ca
